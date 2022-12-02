@@ -217,3 +217,14 @@ history -a
 help
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+help
+grep -i if
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help
+less
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man if
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
