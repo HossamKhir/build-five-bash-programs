@@ -453,3 +453,6 @@ history -a
 touch bingo.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo '#!/bin/bash' >> bingo.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
