@@ -190,3 +190,9 @@ history -a
 echo '#!/bin/bash' >> countdown.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo '#Program that counts down to zero from a given argument'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '#Program that counts down to zero from a given argument' >> countdown.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
