@@ -595,3 +595,15 @@ history -a
 touch fortune.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo '#!/bin/bash' >> fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto -l fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+chmod +x fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+touch fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
