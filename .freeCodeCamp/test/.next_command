@@ -199,3 +199,9 @@ history -a
 echo 'echo $*' >> countdown.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./countdown.sh n
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./countdown.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
