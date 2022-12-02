@@ -774,3 +774,15 @@ history -a
 ./fortune.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+rm fortune.sh.bak
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+touch five.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
