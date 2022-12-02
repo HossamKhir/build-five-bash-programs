@@ -616,3 +616,27 @@ history -a
 ./fortune.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+nano fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+chmod +x fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cp fortune.sh fortune.sh.bak
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ARR=("a" "b" "c")
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
