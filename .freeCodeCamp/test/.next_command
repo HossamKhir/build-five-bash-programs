@@ -366,3 +366,13 @@ history -a
 ./countdown.sh 10
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+help sleep
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help
+grep -i sleep
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+help
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
