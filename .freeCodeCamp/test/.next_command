@@ -807,3 +807,9 @@ history -a
 echo '#!/bin/bash' >> five.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '# Program to run my other four programs' >> five.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
