@@ -187,3 +187,6 @@ history -a
 chmod +x countdown.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo '#!/bin/bash' >> countdown.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
