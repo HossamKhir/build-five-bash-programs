@@ -813,3 +813,6 @@ history -a
 echo '# Program to run my other four programs' >> five.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo 'questionnaire.sh' >> five.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
