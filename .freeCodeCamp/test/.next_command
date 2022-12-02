@@ -459,3 +459,9 @@ history -a
 echo "# Bingo Number Generator" >> bingo.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo "echo -e \"\\n~~Bingo Number Generator~~\\n\""
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo "echo -e \"\\n~~Bingo Number Generator~~\\n\"" >> bingo.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
