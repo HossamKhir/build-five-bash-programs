@@ -11,5 +11,10 @@ GET_FORTUNE(){
 
 GET_FORTUNE
 read QUESTION
+until [[ $QUESTION == "test?" ]];
+do
+  GET_FORTUNE;
+  read QUESTION;
+done
 
 echo ${RESPONSES[$N]}
