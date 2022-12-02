@@ -12,14 +12,15 @@ GET_FORTUNE(){
   else
     echo "Try again. Make sure it ends with a question mark:"
   fi
+
+  read QUESTION
 }
 
-GET_FORTUNE
-read QUESTION
-until [[ $QUESTION =~ \?$ ]];
+# GET_FORTUNE
+# read QUESTION
+until [[ $QUESTION =~ \?$ ]]
 do
-  GET_FORTUNE;
-  read QUESTION;
+  GET_FORTUNE again
 done
 
 echo ${RESPONSES[$N]}
