@@ -66,3 +66,15 @@ history -a
 ./questionnaire.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git add questionnaire.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+nano .gitignore
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -m 'feat: created questionnaire.sh; altered permissions; tested shebang & some commands'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
