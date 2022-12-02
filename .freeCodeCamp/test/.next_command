@@ -792,3 +792,18 @@ history -a
 chmod +x five.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add five.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cp five.sh five.sh.bak
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo '#!/bin/bash' >> five.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
