@@ -691,3 +691,6 @@ history -a
 echo $(( RANDOM % 6 ))
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+help
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
