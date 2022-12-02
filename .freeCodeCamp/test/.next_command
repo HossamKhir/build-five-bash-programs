@@ -577,3 +577,9 @@ history -a
 ./bingo.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+touch fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
