@@ -10,5 +10,6 @@ GET_FORTUNE(){
 }
 
 GET_FORTUNE
+read QUESTION
 
 echo ${RESPONSES[$N]}
