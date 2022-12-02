@@ -610,3 +610,6 @@ history -a
 echo '# Program to tell a persons fortune' >> fortune.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo "echo -e \"\\n~~ Fortune Teller ~~\\n\"" >> fortune.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
